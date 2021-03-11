@@ -100,7 +100,7 @@ def hist_plot(data_set,dep_col):
 hist_plot(dataset_cat,'status')
 
 #Independent and dependent columns
-X_cols=['gender','ssc_b','hsc_b','hsc_s_1','hsc_s_2','degree_t_1','degree_t_2','workex','specialisation','ssc_p','hsc_p','degree_p','etest_p','mba_p']
+X_cols=['gender','ssc_b','hsc_b','hsc_s_1','hsc_s_2','degree_t_1','degree_t_2','specialisation','ssc_p','hsc_p','degree_p','etest_p','mba_p']
 X=dataset[X_cols]
 Y=dataset['status']
 
